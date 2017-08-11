@@ -7,37 +7,45 @@ import '../layouts/flavors.css'
 const Flavors = () =>
   <div>
     <IndexPage />
-    <h1 style={{ color: '#7EBF00', fontWeight: '500', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>Frozen Yogurt Flavors</h1>
+    <h1
+      style={{
+        color: '#7EBF00',
+        fontWeight: '500',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >Frozen Yogurt Flavors
+    </h1>
     <div className="accordion">
       <ul>
         <li>
-          <div> <a href="#">
+          <div> <Link to="/raspberry/">
             <p>black raspberry</p>
-          </a> </div>
+          </Link> </div>
         </li>
         <li>
-          <div> <a href="#">
+          <div> <Link to="/powerberry/">
             <p>power berry</p>
-          </a> </div>
+          </Link> </div>
         </li>
         <li>
-          <div> <a href="#">
+          <div> <Link to="/pomegranate/">
             <p>pomegranate</p>
-          </a> </div>
+          </Link> </div>
         </li>
         <li>
-          <div> <a href="#">
+          <div> <Link to="/original/">
             <p>original</p>
-          </a> </div>
+          </Link> </div>
         </li>
         <li>
-          <div> <a href="#">
+          <div> <Link to="/bloodOrange/">
             <p>blood orange</p>
-          </a> </div>
+          </Link> </div>
         </li>
       </ul>
     </div>
-    <Link to="/">Go back</Link>
-  </div>
+  </div>;
 
 export default Flavors

@@ -32,6 +32,6 @@ const IndexPage = () =>
       Flavors
     </Link>
 
-  </div>
+  </div>;
 
 export default IndexPage

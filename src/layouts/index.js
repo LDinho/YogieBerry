@@ -33,7 +33,7 @@ const Header = () =>
         >
           <img src={logo} style={{ marginBottom: 0, marginLeft: 12, width: 210 }} alt="pinkberry logo" />
         </Link>
-        <Link to="/"
+        <Link to="/flavors/"
               style={{
                 color: '#888888',
                 fontSize: 17,
@@ -44,7 +44,7 @@ const Header = () =>
         }}>Menu</Link>
       </h1>
     </div>
-  </div>
+  </div>;
 
 const TemplateWrapper = ({ children }) =>
   <div>
@@ -66,12 +66,10 @@ const TemplateWrapper = ({ children }) =>
     >
       {children()}
     </div>
-  </div>
+  </div>;
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,
-}
+};
 
 export default TemplateWrapper
-
-// #7EBF00 green color - active
