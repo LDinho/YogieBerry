@@ -31,7 +31,7 @@ const Header = () =>
             textDecoration: 'none',
           }}
         >
-          <img src={logo} style={{ marginBottom: 0, marginLeft: 12, width: 210 }}alt="pinkberry logo" />
+          <img src={logo} style={{ marginBottom: 0, marginLeft: 12, width: 210 }} alt="pinkberry logo" />
         </Link>
         <Link to="/"
               style={{
@@ -40,7 +40,7 @@ const Header = () =>
                 fontWeight: 400,
                 textDecoration: 'none',
 
-        }}> Menu</Link>
+        }}>Menu</Link>
       </h1>
     </div>
   </div>

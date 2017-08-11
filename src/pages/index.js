@@ -19,7 +19,7 @@ const IndexPage = () =>
 
     }}
   >
-    <Link to="/page-2/"
+    <Link to="/flavors/"
           style={{
             color: '#7EBF00',
             fontSize: 17,
@@ -31,6 +31,7 @@ const IndexPage = () =>
     >
       Flavors
     </Link>
+
   </div>
 
 export default IndexPage
