@@ -3,7 +3,7 @@
 node_modules
 .cache/
 # Build directory
-public/
+# public/
 .DS_Store
 
 # Created by https://www.gitignore.io/api/webstorm+all
