@@ -12,27 +12,27 @@ const Flavors = () =>
       <ul>
         <li>
           <div> <a href="#">
-            <h2>black raspberry</h2>
+            <p>black raspberry</p>
           </a> </div>
         </li>
         <li>
           <div> <a href="#">
-            <h2>power berry</h2>
+            <p>power berry</p>
           </a> </div>
         </li>
         <li>
           <div> <a href="#">
-            <h2>pomegranate</h2>
+            <p>pomegranate</p>
           </a> </div>
         </li>
         <li>
           <div> <a href="#">
-            <h2>original</h2>
+            <p>original</p>
           </a> </div>
         </li>
         <li>
           <div> <a href="#">
-            <h2>blood orange</h2>
+            <p>blood orange</p>
           </a> </div>
         </li>
       </ul>

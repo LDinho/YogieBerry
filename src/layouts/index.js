@@ -23,7 +23,7 @@ const Header = () =>
         // padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ display: 'flex', alignItems: 'center', margin: 0 }}>
         <Link
           to="/"
           style={{
@@ -39,6 +39,7 @@ const Header = () =>
                 fontSize: 17,
                 fontWeight: 400,
                 textDecoration: 'none',
+                marginLeft: 40,
 
         }}>Menu</Link>
       </h1>
