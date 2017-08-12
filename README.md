@@ -2,9 +2,9 @@
 
 > A simplified mock version of pinkberry's website in React using GatsbyJS.
 
-##Demo
+## Demo
 
-![demo gif](../public/static/yoberryDemo.gif)
+![demo gif](public/static/yoberryDemo.gif)
 
 
 
